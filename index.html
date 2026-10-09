@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Harish K — Computer Science and Engineering student, Java programmer, and web application developer.">
+  <meta name="theme-color" content="#0a0b12">
+  <title>Harish K | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Harish K home"><span class="brand-mark">H</span><span>HARISH<span class="brand-dot">.</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="navMenu" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#contact" class="nav-contact">Contact ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> COMPUTER SCIENCE & ENGINEERING STUDENT</div>
+        <h1>Hi, I'm <span class="gradient-text">Harish K.</span><br>Building ideas into<br><span class="outline-text">digital experiences.</span></h1>
+        <p class="hero-lead">A curious developer who enjoys programming, solving problems.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="button button-quiet" href="#contact">Get in touch</a>
+        </div>
+        <div class="social-row">
+          <a href="https://github.com/harish2328" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <span class="social-divider"></span>
+          <a href="https://www.linkedin.com/in/harish-k-java-developer" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <span class="social-divider"></span>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=harishrei46%40gmail.com" target="_blank" rel="noreferrer">Email ↗</a>
+          <span class="social-note">Based in Chennai, India</span>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="portrait-orbit orbit-a"></div><div class="portrait-orbit orbit-b"></div>
+        <div class="portrait-card">
+          <div class="portrait-topline"><span>PROFILE / 001</span><span class="live-indicator">●</span></div>
+          <div class="portrait-placeholder" id="portraitFrame">
+            <img id="profilePhoto" src="assets/profile-photo.jpg" alt="Portrait of Harish K" onerror="this.style.display='none';document.getElementById('photoFallback').style.display='flex'">
+            <div class="photo-fallback" id="photoFallback"><div class="fallback-initials">HK</div><span>YOUR PHOTO GOES HERE</span><small>Add your photo as <code>assets/profile-photo.jpg</code></small></div>
+          </div>
+          <div class="portrait-caption"><div><strong>Harish K</strong><span>Developer in progress</span></div><span class="caption-arrow">↗</span></div>
+        </div>
+        <div class="floating-chip chip-top"><span class="chip-icon">⌘</span> Always learning</div>
+        <div class="floating-chip chip-bottom"><span class="chip-icon">✳</span> Build · Learn · Improve</div>
+      </div>
+      <a class="scroll-cue" href="#skills"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    
+
+    <section class="section-wrap section-block" id="skills">
+      <div class="section-heading reveal"><span class="section-index">01 / TOOLKIT</span><h2>Skills I work <span class="gradient-text">with.</span></h2><p>Technologies and strengths from my learning and project experience.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><div class="skill-card-top"><span class="skill-symbol">01</span><span class="skill-mini">LANGUAGE</span></div><h3>Programming</h3><div class="tags"><span>Java</span></div></article>
+        <article class="skill-card reveal"><div class="skill-card-top"><span class="skill-symbol">02</span><span class="skill-mini">DATA & TOOLS</span></div><h3>Database & Tools</h3><div class="tags"><span>MySQL</span><span>GitHub</span></div></article>
+        <article class="skill-card reveal"><div class="skill-card-top"><span class="skill-symbol">03</span><span class="skill-mini">FOUNDATIONS</span></div><h3>Core Concepts</h3><div class="tags"><span>Data Structures & Algorithms</span><span>Object-Oriented Programming</span></div></article>
+        <article class="skill-card skill-card-wide reveal"><div class="skill-card-top"><span class="skill-symbol">04</span><span class="skill-mini">HOW I WORK</span></div><h3>Soft Skills</h3><div class="tags"><span>Team Management</span><span>Team Collaboration</span><span>Leadership</span><span>Adaptability</span><span>Problem-Solving</span></div></article>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="projects">
+      <div class="section-heading reveal"><span class="section-index">02 / SELECTED WORK</span><h2>Projects with <span class="gradient-text">purpose.</span></h2><p>A selection of projects built through exploration and hands-on practice.</p></div>
+      <div class="projects-grid">
+        <article class="project-card project-music reveal">
+          <div class="project-art music-art"><div class="music-window"><div class="window-dots"><i></i><i></i><i></i></div><div class="album-art"><span>♫</span></div><div class="fake-lines"><b></b><i></i><i></i></div><div class="equalizer"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div><span class="art-label">MUSIC / 001</span></div>
+          <div class="project-content"><div class="project-meta"><span>01 — WEB APPLICATION</span><span>JAN — MAR 2026</span></div><h3>Innovators-Hub-Music</h3><p>A responsive music streaming web application with a modern interface, Firebase authentication and music data management, and real-time playback functionality.</p><div class="tags project-tags"><span>HTML</span><span>Tailwind CSS</span><span>JavaScript</span><span>React.js</span><span>Node.js</span><span>Firebase</span></div><a class="project-link" href="https://github.com/harish2328/My-First-Project" target="_blank" rel="noreferrer">View repository <span>↗</span></a></div>
+        </article>
+        <article class="project-card project-news reveal">
+          <div class="project-art news-art"><div class="news-window"><div class="news-head"><span>THE SIGNAL</span><span>VERIFY / ANALYZE</span></div><div class="news-rule"></div><div class="news-big">REAL<br>OR <span>FAKE?</span></div><div class="news-bars"><i></i><i></i><i></i></div><div class="verdict"><span>TEXT ANALYSIS</span><b>Similarity scoring</b></div></div><span class="art-label">NLP / 002</span></div>
+          <div class="project-content"><div class="project-meta"><span>02 — JAVA PROJECT</span><span>JUL — OCT 2025</span></div><h3>Java-Based Fake News Detector</h3><p>An offline fake news detection system using NLP preprocessing, TF-IDF, pattern analysis, and similarity scoring to classify news as Real, Fake, or Suspicious.</p><div class="tags project-tags"><span>Java</span><span>NLP</span><span>TF-IDF</span><span>Flask</span></div><a class="project-link" href="https://github.com/harish2328/fake-news-detector" target="_blank" rel="noreferrer">View repository <span>↗</span></a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="experience">
+      <div class="section-heading reveal"><span class="section-index">03 / EXPERIENCE</span><h2>Learning by <span class="gradient-text">doing.</span></h2></div>
+      <div class="timeline">
+        <article class="timeline-item reveal"><div class="timeline-date">27 FEB — 04 APR 2025</div><div class="timeline-marker"></div><div class="timeline-body"><div class="timeline-top"><div><h3>Web Application Development Internship</h3><p class="timeline-company">Test Yantra Software Solutions (India) Pvt. Ltd.</p></div><span class="timeline-type">INTERNSHIP</span></div><ul><li>Developed practical skills in HTML5, CSS3, JavaScript, React.js, and Firebase through web application development.</li><li>Gained experience in responsive web design, backend services, application deployment, and collaborative development.</li></ul></div></article>
+        <article class="timeline-item reveal"><div class="timeline-date">02 DEC — 31 DEC 2025</div><div class="timeline-marker"></div><div class="timeline-body"><div class="timeline-top"><div><h3>Fundamentals of Java (STTP)</h3><p class="timeline-company">Test Yantra Software Solutions (India) Pvt. Ltd.</p></div><span class="timeline-type">TRAINING</span></div><ul><li>Completed training in core Java concepts and programming fundamentals.</li><li>Practiced logical reasoning and problem-solving through programming exercises and assignments.</li></ul></div></article>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="education">
+      <div class="section-heading reveal"><span class="section-index">04 / EDUCATION</span><h2>The learning <span class="gradient-text">journey.</span></h2></div>
+      <div class="education-list">
+        <article class="education-card reveal"><div class="edu-year">2023 — 2027</div><div class="edu-details"><h3>B.E. Computer Science & Engineering</h3><p>Panimalar Engineering College</p><span>Relevant coursework: DSA, OOP</span></div><div class="edu-score"><small>CGPA</small><strong>7.89<span>/10</span></strong></div></article>
+      </div>
+      <div class="cert-block reveal"><div><span class="section-index">CONTINUOUS LEARNING</span><h3>Certifications & training</h3></div><div class="cert-list"><div><span class="cert-mark">✳</span><p><strong>AWS Certified Cloud Practitioner Essentials</strong><small>Amazon Web Services · Feb 2025</small></p></div><div><span class="cert-mark">✳</span><p><strong>UiPath Automation Developer Associate Training</strong><small>UiPath · Feb 2026</small></p></div><div><span class="cert-mark">✳</span><p><strong>Introduction to Machine Learning</strong><small>NPTEL · Jul–Sep 2025</small></p></div></div></div>
+    </section>
+
+    <section class="contact-section" id="contact">
+    </section>
+    <section class="section-wrap section-block" id="about">
+      <div class="section-heading reveal"><span class="section-index">05 / ABOUT</span><h2>A little about <span class="gradient-text">me.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-main reveal"><p class="large-copy">I'm a Computer Science and Engineering student at <span class="text-bright">Panimalar Engineering College</span>, interested in programming and creating useful digital experiences.</p><p>My experience includes Java programming and SQL. I enjoy learning by building, working with others, and approaching challenges with curiosity and adaptability.</p></div>
+        <div class="about-facts reveal"><div class="fact-card"><span class="fact-label">EDUCATION</span><strong>B.E. CSE</strong><span>2023 — 2027</span></div><div class="fact-card"><span class="fact-label">CURRENT FOCUS</span><strong>Software Development</strong><span>Programming</span></div><div class="fact-card"><span class="fact-label">LOCATION</span><strong>Chennai, India</strong><span>Tamil Nadu</span></div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section-wrap"><a class="brand" href="#home"><span class="brand-mark">H</span><span>HARISH<span class="brand-dot">.</span></span></a><span>Designed with intention. Built to keep learning.</span><span>© <span id="year"></span> Harish K</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
